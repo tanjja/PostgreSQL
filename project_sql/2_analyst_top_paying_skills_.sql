@@ -28,7 +28,7 @@ WITH top_paying_jobs AS (
 
 SELECT
     skills,
-    COUNT(skills) AS skill_demand
+    COUNT(top_paying_jobs.job_id) AS skill_demand
 FROM
     top_paying_jobs
 INNER JOIN skills_job_dim ON top_paying_jobs.job_id = skills_job_dim.job_id
