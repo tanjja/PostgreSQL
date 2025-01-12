@@ -2,9 +2,9 @@
 Objective: Find which data and business analyst jobs have the highest salaries
 
 Procedure:
-- Filter job titles which include the words "business", "data", and "analyst"
-- Remove jobs which have no salary (nulls)
-- Order by salary per year average
+1. Filter job titles which include the words "business", "data", and "analyst"
+2. Remove jobs which have no salary (nulls)
+3. Order by salary per year average
 
 Additional:
 - Filter jobs available in the Philippines or remotely (Smaller dataset)
