@@ -19,6 +19,7 @@ WHERE
     job_title_short IN ('Data Analyst','Business Analyst')
     -- AND job_location IN ('Philippines', 'Anywhere')
     AND salary_year_avg IS NOT NULL
+    AND job_work_from_home = True
 GROUP BY
     skills
 ORDER BY
