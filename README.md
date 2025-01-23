@@ -34,6 +34,8 @@ Focusing on specific aspects of the data provided, each query gives valuable ins
 
 To identify which roles paid the highest, the data was filtered to the postings whose short job titles were either "Data Analyst" or "Business Analyst". To ensure the rows remaining would be valuable, an additional step was done to ensure that the data left had data for salary and was not null. Finally, to fit this data more to my specific context, the data was filtered to locations listed either in the Philippines, or listed as Anywhere.
 
+![Alt Text](assets/query1_image.png)
+
 ```sql
 SELECT
     job_id,
@@ -56,6 +58,14 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 10;
 ```
+
+### 2. Top Paying Data Analyst Skills
+
+![Alt Text](assets/query2_image.png)
+
+### 3. Top Demanded Data Analyst Skills
+
+![Alt Text](assets/query3_image.png)
 
 # What I Learned
 
